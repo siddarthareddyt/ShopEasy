@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.easyshop.mc.shopeasy.main.Activity.SplashActivity"
+    android:background="@drawable/splash_image">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:text="Shop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout"
+            android:layout_toStartOf="@+id/linearLayout"
+            android:layout_marginTop="83dp"
+            android:id="@+id/iId"
+            android:textColor="#293856"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+
+        <ImageView
+            android:id="@+id/loveImageId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/love_icon"
+            android:layout_gravity="bottom" />
+
+        <TextView
+            android:text="Easy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout"
+            android:layout_toStartOf="@+id/linearLayout"
+            android:layout_marginTop="83dp"
+            android:id="@+id/loveId"
+            android:textColor="#2a3957"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="serif"/>
+
+        <ImageView
+            android:id="@+id/splashLogoImage"
+            android:layout_width="wrap_content"
+            android:layout_height="69dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/app_logo"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="23dp"
+            android:layout_weight="1.06" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="LoginButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#055097</item>
+        <item name="colorButtonNormal">#1cacd4</item>
+    </style>
+
+    <style name="cartButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#055097</item>
+        <item name="colorButtonNormal">#1cacd4</item>
+    </style>
+
+    <style name="cartRemoveButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">#b8b43b</item>
+        <item name="colorButtonNormal">#e8e356</item>
+    </style>
+
+    <style name="EditTextStyle" parent="@android:style/Widget.EditText">
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingRight">2dp</item>
+    </style>
+
+    <style name="TitleTextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">17dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="SearchButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/darkBlue</item>
+        <item name="colorButtonNormal">@color/lightBlue</item>
+    </style>
+
+    <style name="AlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#FFC107</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:background">#4CAF50</item>
+    </style>
+</resources>

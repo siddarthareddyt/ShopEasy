@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.easyshop.mc.shopeasy.main.Activity.LoginActivity">
+
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/Theme.AppCompat.Light">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shop Easy"
+                android:id="@+id/toolbar_title"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp"
+                android:typeface="serif"
+                android:textStyle="normal|bold"
+                android:gravity="right"
+                android:layout_marginBottom="2dp"/>
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@id/toolBar">
+
+        <TextView
+            android:text="Returning User?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LoginTitleID"
+            android:gravity="center"
+            android:textColor="#047d9f"
+            android:textSize="20sp"
+            android:typeface="serif"
+            android:textStyle="normal|bold"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="7dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/userNameTextID"
+            android:hint="User Name"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/passwordTextID"
+            android:hint="Password"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <Button
+            android:text="Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/loginButton"
+            android:gravity="center"
+            android:theme="@style/LoginButton"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textColor="@color/white"
+            android:onClick="onLogin"/>
+
+
+        <TextView
+            android:text="User Doesn't Exists! Register!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/noUserError"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:textColor="@color/golden"
+            android:visibility="gone"/>
+
+        <CheckBox
+            android:text=" Remember Me"
+            android:layout_width="match_parent"
+            android:id="@+id/rememerMeId"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:checked="true"
+            android:button="@drawable/checkbox_selector" />
+
+        <TextView
+            android:text="Don't have an Account yet?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/noAccountLabel"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:text="Register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/registerButton"
+            android:gravity="center"
+            android:theme="@style/LoginButton"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textColor="@color/white"
+            android:onClick="onRegister"/>
+    </LinearLayout>
+</RelativeLayout>

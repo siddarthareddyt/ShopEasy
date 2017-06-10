@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5389bc</color>
+    <color name="colorPrimaryDark">#5389bc</color>
+    <color name="colorAccent">#9bb1c5</color>
+    <color name="darkBlue">#067ef0</color>
+    <color name="lightBlue">#5d8fbe</color>
+    <color name="black">#171717</color>
+
+    <color name="white">#ffffff</color>
+    <color name="lightgreen">#579ac3</color>
+    <color name="adyen_green">#7ba5e8</color>
+    <color name="golden">#c74a02</color>
+    <color name="shareColor">#e6b844</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="gray">#66898679</color>
+
+
+    <color name="colorPrimaryProd">#5389bc</color>
+    <color name="colorPrimaryDarkProd">#5389bc</color>
+    <color name="colorAccentProd">#9bb1c5</color>
+    <color name="darkBlueProd">#067ef0</color>
+    <color name="lightBlueProd">#5d8fbe</color>
+
+    <color name="whiteProd">#ffffff</color>
+    <color name="adyen_greenProd">#7ba5e8</color>
+    <color name="goldenProd">#e45a0a</color>
+    <color name="shareColorProd">#e6b844</color>
+
+    <color name="black_overlayProd">#66000000</color>
+
+
+</resources>
